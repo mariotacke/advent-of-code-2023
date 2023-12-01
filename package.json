@@ -1,9 +1,9 @@
 {
-  "name": "__AOC_GITHUB_REPO_PREFIX__-__AOC_YEAR__",
+  "name": "advent-of-code-2023",
   "version": "1.0.0",
-  "description": "Advent of Code __AOC_YEAR__",
+  "description": "Advent of Code 2023",
   "main": "index.js",
-  "author": "__AOC_USER_NAME__ <__AOC_USER_EMAIL__> (__AOC_USER_WEBSITE__)",
+  "author": "Mario Tacke <hi@mariotacke.io> (https://www.mariotacke.io)",
   "license": "MIT",
   "scripts": {
     "test": "mocha day-*/**/test.js",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/__AOC_GITHUB_USER__/__AOC_GITHUB_REPO_PREFIX__-__AOC_YEAR__.git"
+    "url": "https://github.com/mariotacke/advent-of-code-2023.git"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
-    "mocha": "^9.1.3"
+    "mocha": "^10.2.0"
   }
 }
