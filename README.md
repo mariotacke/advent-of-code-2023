@@ -14,7 +14,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 - [Day 1: Trebuchet?!](day-01-trebuchet/)
 - [Day 2: Cube Conundrum](day-02-cube-conundrum/)
-- [Day 3: TBD](day-03/)
+- [Day 3: Gear Ratios](day-03-gear-ratios/)
 - [Day 4: TBD](day-04/)
 - [Day 5: TBD](day-05/)
 - [Day 6: TBD](day-06/)
