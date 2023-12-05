@@ -16,7 +16,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 2: Cube Conundrum](day-02-cube-conundrum/)
 - [Day 3: Gear Ratios](day-03-gear-ratios/)
 - [Day 4: Scratchcards](day-04-scratchcards/)
-- [Day 5: TBD](day-05/)
+- [Day 5: If You Give A Seed A Fertilizer](day-05-if-you-give-a-seed-a-fertilizer/)
 - [Day 6: TBD](day-06/)
 - [Day 7: TBD](day-07/)
 - [Day 8: TBD](day-08/)

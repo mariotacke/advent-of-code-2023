@@ -7,7 +7,7 @@ module.exports = {
   'extends': 'eslint:recommended',
   'parserOptions': {
     'sourceType': 'module',
-    'ecmaVersion': 2016,
+    'ecmaVersion': 2021,
   },
   'rules': {
     'indent': ['error', 2, { 'SwitchCase': 1 }],
