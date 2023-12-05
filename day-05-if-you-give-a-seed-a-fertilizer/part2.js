@@ -9,7 +9,16 @@ module.exports = (input) => {
     .filter((pair) => pair.trim().length)
     .map((s) => s.split(' ').map((n) => +n));
 
-  const finder = parts.slice(1)
+  const isValidSeed = (seed) => {
+    for (let i = 0; i < seeds.length; i++) {
+      if (seed >= seeds[i][0] && seed <= seeds[i][0] + seeds[i][1]) {
+        return true;
+      }
+    }
+  };
+
+  const reverseFinder = parts.slice(1)
+    .reverse()
     .map((map) => {
       const lookup = map.slice(1).map((line) => line.split(' ').map((n) => +n));
 
@@ -17,7 +26,7 @@ module.exports = (input) => {
         let result = number;
 
         for (let i = 0; i < lookup.length; i++) {
-          const [destination, source, length] = lookup[i];
+          const [source, destination, length] = lookup[i];
 
           if (number >= source && number <= source + length - 1) {
             result = destination + number - source;
@@ -31,19 +40,11 @@ module.exports = (input) => {
     })
     .reduce((f, fn) => (n) => fn(f(n)), (n) => n);
 
-  let minimum = Infinity;
+  for (let minimum = 0; minimum < Infinity; minimum++) {
+    const result = reverseFinder(minimum);
 
-  for (let i = 0; i < seeds.length; i++) {
-    const [start, length] = seeds[i];
-
-    for (let j = start; j < start + length; j++) {
-      const result = finder(j);
-
-      if (result < minimum) {
-        minimum = result;
-      }
+    if (isValidSeed(result)) {
+      return minimum;
     }
   }
-
-  return minimum;
 };
