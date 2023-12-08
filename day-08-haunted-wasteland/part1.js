@@ -1,0 +1,23 @@
+module.exports = (input) => {
+  const lines = input.split('\n').map((line) => line.trim());
+  const instructions = lines[0].split('').map((x) => x === 'L' ? 0 : 1);
+  const map = lines.slice(2).reduce((m, line) => {
+    const [, node, left, right] = /(\w{3}) = \((\w{3}), (\w{3})\)/.exec(line);
+
+    return {
+      ...m,
+      [node]: [left, right],
+    };
+  }, {});
+
+  const next = (step) => step % instructions.length;
+
+  let node = 'AAA';
+  let step = 0;
+
+  while (node !== 'ZZZ') {
+    node = map[node][instructions[next(step++)]];
+  }
+
+  return step;
+};

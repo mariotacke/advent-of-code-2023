@@ -19,7 +19,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 5: If You Give A Seed A Fertilizer](day-05-if-you-give-a-seed-a-fertilizer/)
 - [Day 6: Wait For It](day-06-wait-for-it/)
 - [Day 7: Camel Cards](day-07-camel-cards/)
-- [Day 8: TBD](day-08/)
+- [Day 8: Haunted Wasteland](day-08-haunted-wasteland/)
 - [Day 9: TBD](day-09/)
 - [Day 10: TBD](day-10/)
 - [Day 11: TBD](day-11/)
