@@ -21,7 +21,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 7: Camel Cards](day-07-camel-cards/)
 - [Day 8: Haunted Wasteland](day-08-haunted-wasteland/)
 - [Day 9: Mirage Maintenance](day-09-mirage-maintenance/)
-- [Day 10: TBD](day-10/)
+- [Day 10: Pipe Maze](day-10-pipe-maze/)
 - [Day 11: TBD](day-11/)
 - [Day 12: TBD](day-12/)
 - [Day 13: TBD](day-13/)
