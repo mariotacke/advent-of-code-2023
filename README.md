@@ -22,7 +22,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 8: Haunted Wasteland](day-08-haunted-wasteland/)
 - [Day 9: Mirage Maintenance](day-09-mirage-maintenance/)
 - [Day 10: Pipe Maze](day-10-pipe-maze/)
-- [Day 11: TBD](day-11/)
+- [Day 11: Cosmic Expansion](day-11-cosmic-expansion/)
 - [Day 12: TBD](day-12/)
 - [Day 13: TBD](day-13/)
 - [Day 14: TBD](day-14/)
